@@ -1,4 +1,4 @@
-package be.protracker.web.config;
+package be.protracker.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

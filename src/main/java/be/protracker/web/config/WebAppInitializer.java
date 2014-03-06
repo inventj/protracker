@@ -1,5 +1,7 @@
 package be.protracker.web.config;
 
+import be.protracker.config.MongoConfig;
+import be.protracker.config.WebConfig;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -10,7 +12,7 @@ public class WebAppInitializer extends
 
     @Override
     protected Class<?>[] getRootConfigClasses() {
-        return new Class<?>[] { };
+        return new Class<?>[] {MongoConfig.class};
     }
 
     @Override

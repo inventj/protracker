@@ -1,10 +1,27 @@
-package be.protracker.web;
+package be.protracker.model;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
 public class Coordinate {
 
+    @Id
     private String trackerId;
+
     private String latitude;
+
     private String longitude;
+
+    public Coordinate(){
+
+    }
+
+    public Coordinate(String trackerId, String latitude, String longitude) {
+        this.trackerId = trackerId;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
 
     public String getTrackerId() {
         return trackerId;
