@@ -14,7 +14,6 @@ public class Coordinate {
     private String longitude;
 
     public Coordinate(){
-
     }
 
     public Coordinate(String trackerId, String latitude, String longitude) {

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d9e0a0-fae2-4c48-8b49-33bc3e11e951" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/be/protracker/web/Coordinate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/be/protracker/web/config/WebConfig.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/protracker/web/controllers/CoordinatesController.java" afterPath="$PROJECT_DIR$/src/main/java/be/protracker/web/controllers/CoordinatesController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/protracker/web/config/WebAppInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/be/protracker/web/config/WebAppInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/protracker/model/Coordinate.java" afterPath="$PROJECT_DIR$/src/main/java/be/protracker/model/Coordinate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protracker.iml" afterPath="$PROJECT_DIR$/protracker.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -72,10 +70,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="27" selection-start="2649" selection-end="2649" vertical-scroll-proportion="0.5557123" vertical-offset="641" max-vertical-offset="1425">
+            <state line="84" column="39" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="1440">
               <folding />
             </state>
           </provider>
@@ -95,7 +93,7 @@
       <file leaf-file-name="MongoConfig.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/protracker/config/MongoConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="13" column="13" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,22 +137,31 @@
       <file leaf-file-name="Coordinate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/protracker/model/Coordinate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="38" selection-start="340" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+            <state line="31" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.13119534" vertical-offset="0" max-vertical-offset="686">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,9 +189,10 @@
         <option value="$PROJECT_DIR$/src/main/java/be/protracker/web/Coordinate.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/protracker/config/MongoConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/protracker/web/config/WebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/protracker/model/Coordinate.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/protracker/web/controllers/CoordinatesController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/be/protracker/model/Coordinate.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -196,9 +204,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
     <option name="y" value="22" />
-    <option name="width" value="1400" />
+    <option name="width" value="1440" />
     <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -684,7 +691,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="22" width="1400" height="806" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="806" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -703,7 +710,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -786,45 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/protracker/repositories/mongo/CoordinateRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="51" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/protracker/config/MongoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/protracker/model/Coordinate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="38" selection-start="340" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/protracker/web/controllers/CoordinatesController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
@@ -843,6 +811,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="39" selection-start="3134" selection-end="3134" vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/protracker/repositories/mongo/CoordinateRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="51" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/protracker/config/MongoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/protracker/config/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -852,9 +845,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/protracker/model/Coordinate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="27" selection-start="2649" selection-end="2649" vertical-scroll-proportion="0.5557123" vertical-offset="641" max-vertical-offset="1425">
+        <state line="31" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.13119534" vertical-offset="0" max-vertical-offset="686">
           <folding />
         </state>
       </provider>
