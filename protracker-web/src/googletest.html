@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Protracker web </title>
+    <style>
+        html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script>
+
+function initialize() {
+  var mapOptions = {
+    zoom: 15,
+    center: new google.maps.LatLng(51.19605, 5.5080418),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+
+  var flightPlanCoordinates = [
+        new google.maps.LatLng(51.19605, 5.5080418),
+        new google.maps.LatLng(51.196682, 5.5071835),
+        new google.maps.LatLng(51.1968303, 5.506905),
+        new google.maps.LatLng(51.1971194, 5.5063686),
+        new google.maps.LatLng(51.1972538, 5.5062076),
+        new google.maps.LatLng(51.197395, 5.5059609),
+        new google.maps.LatLng(51.1974892, 5.5057677),
+        new google.maps.LatLng(51.1978186, 5.5053601),
+        new google.maps.LatLng(51.1981816, 5.5047163),
+        new google.maps.LatLng(51.1982892, 5.5045768),
+        new google.maps.LatLng(51.1963832, 5.5054459)
+  ];
+  var flightPath = new google.maps.Polyline({
+    path: flightPlanCoordinates,
+    geodesic: true,
+    strokeColor: '#FF0000',
+    strokeOpacity: 1.0,
+    strokeWeight: 2
+  });
+
+ for (var i=0; i < flightPlanCoordinates.length; i++)
+  {
+      new google.maps.Marker({
+          position: flightPlanCoordinates[i],
+          map: map,
+          title: flightPlanCoordinates[i] + ''
+      });
+  }
+
+  flightPath.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+</head>
+<body>
+<div id="map-canvas"></div>
+</body>
+</html>

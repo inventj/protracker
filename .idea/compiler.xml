@@ -22,7 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="protracker" />
+        <module name="protracker-server" />
       </profile>
     </annotationProcessing>
   </component>

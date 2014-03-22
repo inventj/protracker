@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/protracker.iml" filepath="$PROJECT_DIR$/protracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protracker-client/protracker-client.iml" filepath="$PROJECT_DIR$/protracker-client/protracker-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protracker-server/protracker-server.iml" filepath="$PROJECT_DIR$/protracker-server/protracker-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protracker-web/protracker-web.iml" filepath="$PROJECT_DIR$/protracker-web/protracker-web.iml" />
     </modules>
   </component>
 </project>
